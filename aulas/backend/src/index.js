@@ -5,7 +5,7 @@ const cors = require('cors');
 const routes = require('./routes'); //importar as routas de dentro do arquivo routes ./ para referenciar um caminho relativo sendo a mesma pasta do arquivo index 
 
 const app = express(); //Aplicação terá as rotas 
-const NaoUtiliza;
+
 
 app.use(cors()); //permitir que todas as aplicações frontend tenha acesso a esse backend
 app.use(express.json());
