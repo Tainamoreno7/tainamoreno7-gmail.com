@@ -1,6 +1,10 @@
 //https:github.com/Tainamoreno7/semanaomniStack11.git
 const express = require('express'); //Importando o modulo express para dentro da variavel express
+<<<<<<< HEAD
 const cors = require('cors');
+=======
+    const cors = require('cors');
+>>>>>>> 26714930361fe46aba6fe02166819fb270b1bca3
 const routes = require('./routes'); //importar as routas de dentro do arquivo routes ./ para referenciar um caminho relativo sendo a mesma pasta do arquivo index 
 
 const app = express(); //Aplicação terá as rotas 
