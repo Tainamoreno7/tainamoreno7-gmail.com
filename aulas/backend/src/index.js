@@ -1,6 +1,5 @@
 const express = require('express'); //Importando o modulo express para dentro da variavel express
 const cors = require('cors');
-const cors = require('cors');
 
 const routes = require('./routes'); //importar as routas de dentro do arquivo routes ./ para referenciar um caminho relativo sendo a mesma pasta do arquivo index 
 
